@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Vehicle Showroom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vehicle Showroom - Login</h1>
+    </header>
+    <main>
+        <div id="login-container">
+            <form id="login-form">
+                <h2>Login</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+                <p>New here? <a href="#" id="signup-link">Create an account</a></p>
+            </form>
+            <form id="signup-form" style="display:none;">
+                <h2>Signup</h2>
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <button type="submit">Signup</button>
+                <p>Already have an account? <a href="#" id="login-link">Login here</a></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Vehicle Showroom</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
